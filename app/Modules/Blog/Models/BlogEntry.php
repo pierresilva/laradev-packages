@@ -1,0 +1,18 @@
+<?php
+
+namespace App\Modules\Blog\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class BlogEntry extends Model
+{
+    //
+
+    protected $fillable = [
+        'code',
+        'title',
+        'content',
+        'is_active',
+    ];
+
+}
